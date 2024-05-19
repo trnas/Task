@@ -1,0 +1,503 @@
+@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: poppins;
+}
+
+#root {
+  /* max-width: 1280px; */
+  margin: 0;
+  /* padding: 2rem; */
+  text-align: center;
+}
+
+.logo {
+  margin: 0;
+  padding: 0;
+  padding-top: 37px;
+  padding-left: 37px;
+  will-change: filter;
+  transition: filter 300ms;
+  float: inline-start;
+}
+.header1 {
+  padding-top: 0%;
+  background-color: #f8f8f8;
+  height: 274px;
+  text-align: center;
+  margin: 0;
+  display: inline-block;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  /* position: absolute; */
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+h2 {
+  color: black;
+  text-align: center;
+  padding: 20px;
+}
+.head {
+  display: flex;
+  padding-left: 330px;
+  padding-top: 38px;
+}
+.head h2 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  padding-right: 77px;
+}
+.head1 {
+  display: flex;
+  font-weight: normal;
+  justify-content: space-between;
+}
+.head1 div {
+  display: flex;
+  padding-top: 78px;
+}
+.head1 div h3 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  height: 30px;
+  color: #451a64;
+  padding-right: 88px;
+}
+.imgNtext {
+  display: flex;
+}
+.imgNtext div {
+  position: absolute;
+  left: 470px;
+  top: 447px;
+  width: 997px;
+  height: 404px;
+  background-color: #ffffffd1;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.imgNtext div section button {
+  color: #ffffff;
+  background-color: #4b2a63;
+  width: 630px;
+  height: 96px;
+  font-size: 30px;
+  line-height: 45px;
+}
+.imgNtext div section {
+  width: 630px;
+  height: 96px;
+  padding-left: 159px;
+  padding-top: 44px;
+}
+.img1 {
+  width: 1090px;
+  height: 613px;
+  float: left;
+  margin: 0%;
+  padding-top: 68px;
+}
+
+main {
+  margin: 0%;
+  padding: 0%;
+  display: inline-block;
+}
+.bold {
+  margin: 0%;
+  padding: 0%;
+  padding-left: 297px;
+  font-size: 48px;
+  line-height: 72px;
+  font-weight: 600;
+  width: 352px;
+}
+.text1 {
+  font-size: 36px;
+  line-height: 54px;
+  font-weight: 400;
+  margin: 0%;
+  padding: 0%;
+  padding-left: 185px;
+  width: 576px;
+}
+.div1 {
+}
+.title1 {
+  color: black;
+  font-size: 36px;
+  line-height: 54px;
+  font-weight: 500;
+  padding: 0%;
+  padding-top: 141px;
+  margin: 0;
+}
+#table1 {
+  padding-top: 95px;
+  margin: 0;
+}
+#table1 li h3 {
+  margin: 0;
+  padding-top: 27px;
+  color: black;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+#table1 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#table1 li {
+  width: 10rem;
+  text-align: center;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+/* #table2 {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+} */
+#table2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#table2 h1 {
+  width: 100%;
+  height: 54px;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+  /* text-align: center; */
+  color: black;
+  padding: 0%;
+  margin: 0%;
+  padding-bottom: 60px;
+  padding-top: 137px;
+}
+#table2 li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  /* padding-top: 115px;
+  padding-right: 50px;
+  padding-left: 50px;
+  position: relative; */
+}
+
+#table2 h3 {
+  margin: 0;
+  padding: 0;
+  padding-top: 33px;
+  padding-bottom: 47px;
+  color: #4b2a63;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+#table2 ul {
+  gap: 75px;
+  display: flex;
+  margin: 0%;
+}
+#calendar {
+  padding-top: 6px;
+  width: 68px;
+  height: 73px;
+}
+.relative {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#calendar-absolute {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font-size: 12px;
+  width: 31px;
+  height: 36px;
+  margin-top: 20px;
+}
+#houseIcon {
+  width: 72px;
+  height: 72px;
+}
+#certificate {
+  width: 62px;
+  height: 62px;
+  padding-top: 10px;
+}
+#kitchen {
+  width: 286px;
+  height: 340px;
+  border-radius: 15px;
+}
+#livingRoom {
+  width: 286px;
+  height: 340px;
+  border-radius: 15px;
+}
+#bedroom {
+  width: 286px;
+  height: 340px;
+  border-radius: 15px;
+}
+#office {
+  width: 286px;
+  height: 340px;
+  border-radius: 15px;
+}
+.para {
+  display: flex;
+  justify-content: center;
+}
+.para p {
+  color: black;
+  width: 1041px;
+  height: 144px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  /* padding-left: 436px;
+  padding-right: 200px; */
+}
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.burger{
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .hidemob {
+    display: none !important;
+  }
+  .burger {
+    display: flex;
+    width: 40px;
+    height: 40px;
+      
+  }
+  .head {
+    display: none;
+  }
+  .header1 {
+    height: auto;
+    padding: 24px 12px;
+    width: -webkit-fill-available;
+  }
+  img.logo {
+    padding: unset;
+    height: 60px;
+    width: 60px;
+  }
+
+  .imgNtext {
+    position: relative;
+  }
+  .imgNtext .img1 {
+    width: 100%;
+    height: auto;
+    padding-top: 0px;
+  }
+
+  .imgNtext div {
+    position: absolute;
+    left: 50%;
+    top: unset;
+    bottom: 0px;
+    transform: translateX(-50%);
+    width: 80%;
+    height: auto;
+    padding: 24px;
+    padding-bottom: 0px;
+  }
+
+  .imgNtext .text1 {
+    font-size: 16px;
+    line-height: 16px;
+    width: auto;
+    padding: unset;
+    margin-bottom: 12px;
+  }
+
+  .imgNtext .bold {
+    font-size: 16px;
+    width: unset;
+    padding: unset;
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+
+  .imgNtext div section {
+    width: auto;
+    height: auto;
+    padding: unset;
+  }
+
+  .imgNtext div section button {
+    width: unset;
+    height: unset;
+    font-size: 12px;
+    line-height: unset;
+  }
+
+  .title1 {
+    padding-top: 40px;
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  #table1 {
+    padding-top: 20px;
+  }
+
+  #table1 ul {
+    gap: 1rem;
+  }
+
+  #table1 li {
+    width: auto;
+    flex: 1;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #table1 li div.relative,
+  #houseIcon,
+  #certificate {
+    transform: scale(0.7);
+  }
+
+  #calendar {
+    padding-top: 0px;
+  }
+  #calendar-absolute {
+    margin-top: 16px;
+  }
+  #table1 li h3 {
+    padding-top: 12px;
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  #table2 h1 {
+    height: auto;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #table2 ul {
+    gap: 15px;
+    flex-wrap: wrap;
+    padding: 0px 20px;
+  }
+
+  #table2 li {
+    flex: 1 1 40%;
+    margin-bottom: 12px;
+  }
+
+  #table2 li img {
+    height: auto !important;
+    width: 100% !important;
+  }
+
+  #table2 h3 {
+    margin: 0;
+    padding: 0;
+    padding-top: 12px;
+    padding-bottom: 0px;
+    color: #4b2a63;
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .child {
+    flex: 1 1 20%;
+  }
+  .child img {
+    height: 200px;
+    width: auto;
+  }
+  .child h1 {
+    font-size: 16px;
+  }
+
+  .child p {
+    font-size: 14px;
+  }
+  .triangle2{
+    display: none;
+  }
+}
+.triangle1 {
+  position: absolute;
+  top: 700px;
+  left: 0;
+  z-index: -1;
+}
+.triangle2 {
+  position: absolute;
+  top: 2000px;
+  left: 0;
+  z-index: -1;
+  transform: rotateX(302deg);
+}
+
+.triangle1 img{
+  width: 100%;
+}
+
+.triangle2 img {
+  width: 100%;
+}

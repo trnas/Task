@@ -1,0 +1,30 @@
+{
+    
+    "slides" : [
+        {
+            "src": "../assets/moderInt.jpg",
+            "alt": "modern interior"
+        },
+        {
+            "src": "../assets/classicInt.webp",
+            "alt": "classic interior"
+        },
+        {
+            "src": "../assets/grey.jpeg",
+            "alt": "grey"
+        },
+        {
+            "src": "../assets/plant.jpeg",
+            "alt": "plant"
+        },
+        {
+            "src": "../assets/furni.jpeg",
+            "alt": "furniture"
+        },
+        {
+            "src": "../assets/outdoor.jpeg",
+            "alt": "outdoor furniture"
+        }
+
+    ]
+}
